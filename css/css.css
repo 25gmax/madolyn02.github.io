@@ -38,12 +38,12 @@ body {
 h1 {
     font-family: 'Dancing Script', cursive;
     color: #8bb04b;
-    text-size: 50px;
+    text-size: 100px;
   }
 p {
     font-family: 'Dancing Script', cursive;
     color: #8bb04b;
-    text-size: 25px;
+    text-size: 50px;
   }
  a:link {
     text-decoration: none;
@@ -85,7 +85,7 @@ a:hover {
     text-align: center;
     padding: 15px 40px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 10px;
 }
 .topnav a:hover {
     background-color: #ddd;
