@@ -32,20 +32,13 @@ body {
   }
 /* picture of me */
   .me {
-    margin-top: 125px;
-    margin-left: 100px;
     border-radius: 50%;
-    width: 500px;
-    float: left;
   }
 /* about me stuff*/
   .abtme {
     font-family: 'Dancing Script', cursive;
     color: #8bb04b;
-    float: left;
     font-size: 50px;
-    margin-left: 180px;
-    margin-top: 200px;
   }
 p{
   font-size: 30px;
@@ -69,11 +62,7 @@ a:hover {
 }
 /* Grace Hopper project */
  .gracehopper {
-    float: left;
     position: relative;
-    margin-right: 200px;
-    margin-top: 225px;
-    width: 300px;
   } 
 /* my projects title */
 .myproj {
