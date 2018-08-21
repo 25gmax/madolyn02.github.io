@@ -47,6 +47,10 @@ body {
     margin-left: 180px;
     margin-top: 200px;
   }
+p{
+  font-size: 12px;
+}
+  
  a:link {
     text-decoration: none;
     color:#5a7247;
