@@ -34,16 +34,11 @@ body {
   .me {
     border-radius: 50%;
   }
-/* about me stuff*/
-  .abtme {
+
+  h1 p {
     font-family: 'Dancing Script', cursive;
     color: #8bb04b;
-    font-size: 50px;
   }
-p{
-  font-size: 30px;
-}
-  
  a:link {
     text-decoration: none;
     color:#5a7247;
