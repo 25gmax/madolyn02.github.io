@@ -1,4 +1,5 @@
 body {
+  margin-top: 70px; 
   background: #ffffff;
   }
 /* name on topnav */
@@ -34,16 +35,15 @@ body {
   .me {
     border-radius: 50%;
   }
-
 h1 {
     font-family: 'Dancing Script', cursive;
     color: #8bb04b;
     text-size: 100px;
   }
 p {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dosis', sans-serif;
     color: #8bb04b;
-    text-size: 50px;
+    text-size: 25px;
   }
  a:link {
     text-decoration: none;
@@ -64,18 +64,15 @@ a:hover {
 .center{
   text-align: center;
 }
-/* Grace Hopper project */
- .gracehopper {
-    position: relative;
-  } 
 /* my projects title */
 .myproj {
-  font-size: 60px;
+  font-size: 100px;
 }
 .column {
-    float: left;
-    width: 40%;
-    padding: 5px;
+  margin-right: 9%;
+  float: left;
+  width: 40%;
+  padding: 5px;
 }
 .row::after {
     content: "";
@@ -121,3 +118,4 @@ a:hover {
   .main {
     margin-bottom: 30px;
 }
+
