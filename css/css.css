@@ -40,10 +40,15 @@ h1 {
     color: #8bb04b;
     text-size: 100px;
   }
-p {
-    font-family: 'Dosis', sans-serif;
+h2 {
+    font-family: 'EB Garamond', serif;
+    color: #38664c;
+    text-size: 12px;
+  }
+h1 a {
+    font-family: 'Dancing Script', cursive;
     color: #8bb04b;
-    text-size: 25px;
+    text-size: 100px;
   }
  a:link {
     text-decoration: none;
@@ -64,9 +69,18 @@ a:hover {
 .center{
   text-align: center;
 }
-/* my projects title */
-.myproj {
+/* makes text bigger */
+.bigtxt {
   font-size: 100px;
+}
+.shiftdwn{
+  margin-top: 150px;
+}
+.littletxt{
+  text-size: 12px;
+}
+.shiftup{
+  margin-top: -70px;
 }
 .column {
   margin-right: 9%;
