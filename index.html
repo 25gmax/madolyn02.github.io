@@ -1,44 +1,55 @@
-<html lang="en">
-<meta charset="UTF-8" />
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
 <head>
-  <link rel="stylesheet" href="css/index.css">
+  <meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+  <link href="http://allfont.net/allfont.css?fonts=star-jedi" rel="stylesheet" type="text/css" />
+<!--   <link rel="stylesheet" type="text/css" href="css/index.css"> -->
   <title>Personal Portfolio</title>
-
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/gallery.js"></script>
 </head>
-<link href="https://fonts.googleapis.com/css?family=Cookie|Dancing+Script" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
 
 <body>
+
   <div include-html="header.html"></div>
-  <div class="row">
-    <div class="column center">
-      <img style="border-radius: 50%" alt="A picture of me." src="https://static.wixstatic.com/media/ca3497_001e369baf3f4b94a168789d81302d5d~mv2.png/v1/crop/x_0,y_252,w_640,h_632/fill/w_381,h_376,al_c,q_80,usm_0.66_1.00_0.01/ca3497_001e369baf3f4b94a168789d81302d5d~mv2.webp"
-        style="width: 100%">
+
+  <!-- START OF PAGE -->
+
+  <div class="row" style="align: center;">
+    <div class="column">
+      <center><img style="border-radius: 50%" alt="A picture of me." src="https://static.wixstatic.com/media/ca3497_001e369baf3f4b94a168789d81302d5d~mv2.png/v1/crop/x_0,y_252,w_640,h_632/fill/w_381,h_376,al_c,q_80,usm_0.66_1.00_0.01/ca3497_001e369baf3f4b94a168789d81302d5d~mv2.webp"
+        style="width: 100%"></center>
     </div>
-    <div class="column center">
-      <h1>
-        <a href="https://about.me/madolynglocksine">
+    <div class="column">
+      <a href="https://about.me/madolynglocksine">
           <h1 class="bigtxt shiftdwn" style="width: 100%"> About Me</h1>
         </a>
         <h2 class="shiftup littletxt" style="width:100%">My goal is to work hard so I will have the knowledge to help others and follow my dreams. I hope to one day attend college to earn a degree in Computer Science. I will achieve this by doing my best in school, never giving up, and facing whatever is thrown at me head-on.</h2>
     </div>
   </div>
-  <div class="row">
+   <center><h1 style="width:100%">My Projects</h1></center>
+  <div class="row" style="text-align:center">
     <div class="column">
-      <h1 class="bigtxt" style="width:100%">My Projects</h1>
+       <a href="https://codepen.io/madolyn02/full/zmLyMd/"><img alt="Grace Hopper Tribute Page. " src="https://static.wixstatic.com/media/ca3497_669f576acb23430b9f9574597a7a3eb7~mv2.png/v1/fill/w_350,h_162,al_c,usm_0.66_1.00_0.01/ca3497_669f576acb23430b9f9574597a7a3eb7~mv2.png" style="width: 100%">
     </div>
     <div class="column">
-      <h1></h1>
+       <a href="https://robotics.e-hps.net/"><img alt="Garber Robotics Website. " src="/images/Screenshot 2018-12-07 at 8.57.40 AM.png" style="width: 100%">
     </div>
   </div>
-  <div class="row">
-    <div class="column">
-      <a href="https://codepen.io/madolyn02/full/zmLyMd/"><img alt="Grace Hopper Tribute Page. " src="https://static.wixstatic.com/media/ca3497_669f576acb23430b9f9574597a7a3eb7~mv2.png/v1/fill/w_350,h_162,al_c,usm_0.66_1.00_0.01/ca3497_669f576acb23430b9f9574597a7a3eb7~mv2.png" style="width: 100%">
-      </div>
-      <div class="row">
-    <div class="column">
-      <a href="https://robotics.e-hps.net/"><img alt="Garber Robotics Website. " src="/images/Screenshot 2018-12-07 at 8.57.40 AM.png" style="width: 100%">
-      </div>
-    </body>
+
+  <!-- END OF PAGE -->
+
+</body>
+
+<!-- <div include-html="footer.html"> -->
+
+</div>
+
+<script>
+  includeHTML();
+</script>
+
 </html>
