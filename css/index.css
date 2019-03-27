@@ -87,7 +87,7 @@ p {
 
 /* Change the background color on mouse-over */
 .header a:hover {
-  background-color: ##00303F;
+  opacity: 0.5;
   color: white;
   font-family: 'Prata', serif;
 }
