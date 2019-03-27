@@ -89,7 +89,7 @@ p {
 
 /* Style the active/current link*/
 .header a.active {
-  background-color: dodgerblue;
+  background-color: #00303F;
   color: white;
 }
 
