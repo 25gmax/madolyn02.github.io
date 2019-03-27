@@ -8,6 +8,7 @@ html, body {
   color: #FFFFFF;
   font-family: 'Prata', serif;
   min-height: 100%;
+  background-attachment: fixed;
 }
 
 h1 {
