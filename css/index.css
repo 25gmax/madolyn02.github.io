@@ -211,3 +211,37 @@ p {
   background: #ff0000;
   color: white;
 }
+table.scroll {
+    width: 100%;
+    /* border-collapse: collapse; */
+    border-spacing: 0;
+    border: 2px solid white;
+}
+
+table.scroll tbody,
+table.scroll thead { display: block; }
+
+thead tr th {
+    height: 30px;
+    width: 92.79%;
+    line-height: 30px;
+    text-align: left;
+}
+
+table.scroll tbody {
+    height: 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+tbody { border-top: 2px solid white; }
+
+tbody td, thead th {
+    width: 20%;
+    border-right: 1px solid white;
+    /* white-space: nowrap; */
+}
+
+tbody td:last-child, thead th:last-child {
+    border-right: none;
+}
