@@ -29,6 +29,12 @@ h1 {
   text-align: center;
 }
 
+footer{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 5%;
+  line-height: 110%;
+}
 
 /* there's a column for the body as well like in the footer */
   .column {
@@ -115,6 +121,10 @@ p {
   }
 }
 
+hr {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
 
 /* Custom Font sizes, helps with moble viwing */
 h1 {
