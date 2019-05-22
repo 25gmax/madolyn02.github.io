@@ -9,11 +9,20 @@ html, body {
   font-family: 'Prata', serif;
   min-height: 100%;
   background-attachment: fixed;
+  height: 100%;
 }
 
 h1 {
   font-family: 'Prata', serif;
   font-size: 48px;
+}
+.parallax {
+  background-color: white;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main {
   padding-top: 1px;
