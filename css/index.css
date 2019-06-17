@@ -7,31 +7,26 @@ html, body {
   background-image: linear-gradient(to bottom right, #038db2, #f9637c);
   color: #FFFFFF;
   font-family: 'Prata', serif;
-  min-height: 100%;
+  /* min-height: 100%; */
   background-attachment: fixed;
   height: 100%;
+  width: 100%;
+  margin: 0;
 }
 
 h1 {
   font-family: 'Prata', serif;
   font-size: 48px;
 }
-.parallax {
-  background-color: white;
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .main {
-  padding-top: 1px;
-  padding-bottom: 1px;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0%;
+  margin-bottom: 0%;
   text-align: center;
   color: black;
   letter-spacing: 3px;
+  /* padding-top: 22%; */
 }
 /* Stuff that needs to be center */
 .center {
@@ -77,15 +72,14 @@ p {
 .header {
   overflow: hidden;
   /* background-color: #f1f1f1; */
-  padding: 0px 0px 0px 0px;
+  /* padding: 0px 0px 0px 0px; */
   color: #FFFFFF;
   font-family: 'Prata', serif;
 }
 
 /* Style the header links */
 .header a {
-  float: left;
-  color: white;
+  color: #9fabaf;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -113,17 +107,13 @@ p {
   color: white;
 }
 
-/* Float the link section to the right */
-.header-center {
-  float: center;
-}
-
 .yeehaw {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
-  padding: 0px;
+  height: 50%;
+  /* position: absolute; */
+  /* top: 0;
+  left: 0;
+  /* transform: translateX(-100%); */
 }
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
