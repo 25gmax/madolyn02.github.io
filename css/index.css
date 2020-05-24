@@ -12,8 +12,40 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0;
+  scroll-behavior: smooth;
+}
+.right{
+  width: 100%;
+  position: absolute;
+  right: 0%;
 }
 
+
+.button {
+  background-color: transparent; /* Green */
+  border: 50%;
+  color: white;
+  padding: 16px 32px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: transparent;
+  color: white;
+  position: relative;
+}
+.button1:hover {
+  background-color: transparent;
+  color: white;
+  /*border: 2px solid white;*/
+}
 h1 {
   font-family: 'Prata', serif;
   font-size: 48px;
@@ -68,53 +100,9 @@ p {
   font-family: 'ZCOOL QingKe HuangYou';
   /*background: rgba(0, 0, 0, 0.5);*/
 }
-/* Style the header with a grey background and some padding */
-.header {
-  overflow: hidden;
-  /* background-color: #f1f1f1; */
-  padding: 0px 0px 0px 0px;
-  color: #FFFFFF;
-  font-family: 'Prata', serif;
-}
-
-/* Style the header links */
-.header a {
-  color: #9fabaf;
-  text-align: center;
-  padding: 12px;
-  bottom: 15px;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
-}
-
-/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
-}
-
-/* Change the background color on mouse-over */
-.header a:hover {
-  opacity: 0.5;
-  color: white;
-  font-family: 'Prata', serif;
-}
-
-/* Style the active/current link*/
-.header a.active {
-  font-family: 'Prata', serif;
-  color: white;
-}
-
-.yeehaw {
-  width: 100%;
-  height: 50%;
-}
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
-  .header a {
+/*  .header a {
     float: none;
     display: block;
     text-align: left;
@@ -123,7 +111,7 @@ p {
     float: none;
   }
 }
-
+*/
 hr {
   background-color: #ffffff;
   border-color: #ffffff;
@@ -223,7 +211,7 @@ table.scroll thead { display: block; }
 
 thead tr th {
     height: 30px;
-    width: 92.79%;
+    width: 100%;
     line-height: 30px;
     text-align: left;
 }
@@ -237,7 +225,7 @@ table.scroll tbody {
 tbody { border-top: 2px solid white; }
 
 tbody td, thead th {
-    width: 20%;
+    width: 0%;
     border-right: 1px solid white;
     /* white-space: nowrap; */
 }

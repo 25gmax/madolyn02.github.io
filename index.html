@@ -6,7 +6,7 @@
 <link href="https://fonts.googleapis.com/css?family=Prata" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" href="css/index.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <title>Hi, I'm Madolyn!</title>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/index.js"></script>
   <script src="js/gallery.js"></script>
@@ -14,18 +14,25 @@
 
 <body>
 
-  <div include-html="header.html"></div>
-
   <!-- START OF PAGE -->
 
-  <div class="row" style="align: center;">
+<div class="right">
+<a class="button button1" href="#about">About</a>
+<a class="button button1" href="#preparation">Preparation</a>
+<a class="button button1" href="#tools">Tools</a>
+<a class="button button1" href="#awards">Awards</a>
+<!--<a class="button button1" href="#news">In the News</a>-->
+<a class="button button1" href="#community">Community</a>
+<a class="button button1" href="#portfolio">Portfolio</a>
+</div>
+  <div class="row" style="align: center;  padding-top: 10%">
     <div class="column">
-      <center><img style="border-radius: 50%; width: 75%;" alt="A picture of me." src="/images/SeniorPic.jpg"></center>
+      <center><img style="border-radius: 50%; width: 75%;" alt="A picture of me." id="about" src="/images/FlowerSeniorPic.jpg"></center>
     </div>
     <div class="column">
       <center><h1 class="shiftup" style="width:100%">Hi, I'm Madolyn!</h1><center>
         <hr>
-        <h3 class="shiftup" style="width:100%">I'm a student in Michigan who is working hard to gain the knowledge and skills to follow her dream of helping others in need through the use of technology.</h3>
+        <h2 class="shiftup" style="width:100%">I'm a student and programmer in Michigan who is working hard to gain the knowledge and skills to follow her dream of helping others in need through the use of technology.</h2>
 
     </div>
   </div>
@@ -33,17 +40,18 @@
 <!--Preparation-->
 
   <h1 style="font-size: 120px"></h1>
-   <center><h1 style="width:100%">Preparation</h1></center>
+   <center><h1 style="width:100%" id="preparation">Preparation</h1></center>
   <div class="row">
        <div class="column" style="text-align:center">
-         <h2>Education:</h2>
-       </div>
-       <div class="column" style= "margin-top: 65px">
-         <ul>
+         <h2 style="padding-bottom: 1.5em">Education:</h2>
+
            <li>Class of 2021</li>
            <li>GPA: 4.17</li>
            <li>Class Rank: 1</li>
-           <h6>Specialty Classes/Electives:</h6>
+
+       </div>
+       <div class="column" style= "margain-top: 65px">
+           <h2>Specialty Classes/Electives:</h2>
            <ul>
            <li>Honors Physics</li>
            <li>Computer Programming and Design</li>
@@ -64,87 +72,44 @@
    </div>
 
   <hr>
+  <h1 style="font-size: 120px"></h1>
+   <center><h1 style="width:100%" id="tools">Tools</h1></center>
   <div class="row">
-   <div class="column" style="text-align:center">
-     <h2>Activities:</h2>
+       <div class="column" style="text-align:center">
+
+           <li>Java</li>
+           <li>JavaScript</li>
+           <li>Python</li>
+           <li>Julia</li>
+           <li>R</li>
+           <li>HTML5</li>
+           <li>CSS3</li>
+
+       </div>
+       <div class="column">
+
+           <ul>
+           <li>Visual Studio</li>
+           <li>Visual Studio Code</li>
+           <li>Eclipse</li>
+           <li>IntelliJ</li>
+           <li>Spyder</li>
+           <li>Wordpress</li>
+           <li>GitHub</li>
+         </ul>
+     </div>
    </div>
-   <div class="column" style= "margin-top: 65px">
-     <ul>
-       <li>Junior Varsity Cheerleading:</li>
-       <ul>
-         <li>2017 Football Season</li>
-         <li>August 2017 UCA Stunt Clinic at Bay City Central High School</li>
-       </ul>
-       <li>Spring Musical:</li>
-       <ul>
-         <li>"Shrek: The Musical" 2015 (Mouse Tapper)</li>
-         <li>"School of Rock" 2017 (School Employee)</li>
-         <li>"The Little Mermaid" 2018 (Sea Creature and Maid)</li>
-       </ul>
-       <li>Robotics:</li>
-       <ul>
-         <li>Power Up Game 2018</li>
-         <ul>
-           <li>2018 Lincoln Innovation in Control Award sponsored by Rockwell Automation</li>
-           <li>2018 Midland Safety Award sponsored by Underwriters Laboratories</li>
-           <li>2018 Midland Excellence in Engineering Award sponsored by Delphi</li>
-           <li>2018 Michigan State Championship Safety Award sponsored by Underwriters Laboratories</li>
-         </ul>
-         <li>Destination: Deep Space Game 2019</li>
-         <ul>
-           <li>2019 Midland District FIRST Chairman's Award</li>
-           <li>2019 Midland Safety Award sponsored by Underwriters Laboratories</li>
-           <li>2019 Alpena #2 Safety Award sponsored by Underwriters Laboratories</li>
-           <li>2019 Alpena #2 Excellence in Engineering Award sponsored by Delphi</li>
-           <li>2019 Michigan State Championship Safety Award sponsored by Underwriters Laboratories</li>
-           <li>2019 Detroit World Championship Second Runner-Up Safety Award sponsored by Underwriters Laboratories</li>
-         </ul>
-         <li>Infinite Recharge Game 2020</li>
-         <ul>
-           <li>2020 Midland District FIRST Chairman's Award</li>
-         </ul>
-         <li>For more info on our team visit the website a teammate and I made:<a href="https://robotics.e-hps.net/"> https://robotics.e-hps.net/</a></li>
-         <li>Student Council:</li>
-         <ul>
-           <li>2017-2018 school year Freshman Secretary</li>
-           <li>November 2017 LTI conference</li>
-         </ul>
-         <li>Track and Field:</li>
-         <ul>
-           <li>JV Spring 2018 season</li>
-           <li>Shot put, discus, 200m dash, 400m dash </li>
-         </ul>
-         <li>Science Olympiad:</li>
-         <ul>
-           <li><a href="http://www.delta.edu/community/youth-programs/_documents/science-olympiad/2019-division-c-placement-results.pdf">2019 Region IV Third Place Designer Genes C Event<a></li>
-         </ul>
-         <li>School Newspaper:</li>
-         <ul>
-           <li>Two publications</li>
-         </ul>
-         <li>National Honors Society:</li>
-         <ul>
-           <li>Member of Garber High School Alpha Omega Chapter since October 2019</li>
-         </ul>
-         <li>Leadership:</li>
-         <ul>
-           <li>Student Council</li>
-           <li>Students Leading Students (SLS)</li>
-           <li>Mentoring and facilitating a Coding Club at local junior high</li>
-           <li>Youth mentor to FIRST Tech Challenge team 14623 and FIRST LEGO League teams</li>
-         </ul>
-     </ul>
-  </div>
-  </div>
+
   <hr>
+
   <center>
    <h1></h1>
-   <h1>Volunteering:</h1>
+   <h1 id="community">Volunteering:</h1>
    <h1></h1>
   <table class="scroll">
     <thead>
         <tr>
-            <th>Event</th>
+            <th style="position: relative; left:0px">Event</th>
             <th>Hours</th>
         </tr>
     </thead>
@@ -226,7 +191,7 @@
   </center>
   <h1></h1>
   <hr>
-  <center><h2>Awards:</h2></center>
+  <center><h2 id="awards">Awards:</h2></center>
   <ul>
   <li>2020 NCWIT Aspirations in Computing Michigan Regional Affiliate Honorable Mention<a></li>
   <li>2020 FIRST Robotics Competition Michigan State Championship Dean's List Finalist Award<a></li>
@@ -241,7 +206,7 @@
 <!-- Projects -->
 
 
-  <center><h1 style="width:100%">My Projects</h1></center>
+  <center><h1 style="width:100%" id="portfolio">My Projects</h1></center>
   <div class="row" style="text-align:center">
     <div class="column">
        <a href="https://codepen.io/madolyn02/full/zmLyMd/"><img alt="Grace Hopper Tribute Page. " src="https://static.wixstatic.com/media/ca3497_669f576acb23430b9f9574597a7a3eb7~mv2.png/v1/fill/w_350,h_162,al_c,usm_0.66_1.00_0.01/ca3497_669f576acb23430b9f9574597a7a3eb7~mv2.png" style="width: 100%">
@@ -284,6 +249,9 @@
 
 <script>
   includeHTML();
+  /*Scroll to top when arrow up clicked BEGIN*/
+
+ /*Scroll to top when arrow up clicked END*/
 </script>
 
 </html>

@@ -26,6 +26,7 @@ function includeHTML() { //Thanks w3!
     }
   }
 };
+
 // Change the selector if needed
 var $table = $('table.scroll'),
     $bodyCells = $table.find('tbody tr:first').children(),
