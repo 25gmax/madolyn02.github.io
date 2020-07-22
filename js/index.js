@@ -1,4 +1,3 @@
-
 function includeHTML() { //Thanks w3!
   var z, i, elmnt, file, xhttp;
   /*loop through a collection of all HTML elements:*/
@@ -44,3 +43,4 @@ $(window).resize(function() {
         $(v).width(colWidth[i]);
     });
 }).resize(); // Trigger resize handler
+© 2020 GitHub, Inc.
